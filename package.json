@@ -1,0 +1,24 @@
+{
+  "name": "blog-service",
+  "version": "1.0.0",
+  "description": "A blog microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Abrego",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.26",
+    "ts-lib": "0.0.5",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "cassandra-driver": "^4.6.3",
+    "fastify": "^3.28.0",
+    "fp-ts": "^2.12.0",
+    "io-ts": "^2.2.16"
+  }
+}
